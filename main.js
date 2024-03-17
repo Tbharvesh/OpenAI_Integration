@@ -10,7 +10,7 @@ const cors = require("cors"); // Import CORS module
 app.use(cors()); // Enable CORS
 const openai= new OpenAI(
     {
-        apiKey:"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"
+        apiKey:"YOUR API KEY"
     }
 )
 app.post('/getResponse',async(req,res)=>{
